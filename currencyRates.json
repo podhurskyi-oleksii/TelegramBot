@@ -1,0 +1,62 @@
+[
+  {
+    "bank": "MONO",
+    "currency": "USD",
+    "buyRate": 36.65,
+    "sellRate": 37.4406
+  },
+  {
+    "bank": "MONO",
+    "currency": "EUR",
+    "buyRate": 39.95,
+    "sellRate": 41.1506
+  },
+  {
+    "bank": "PRIVAT",
+    "currency": "EUR",
+    "buyRate": 39.76100,
+    "sellRate": 41.32231
+  },
+  {
+    "bank": "PRIVAT",
+    "currency": "USD",
+    "buyRate": 36.56860,
+    "sellRate": 37.45318
+  },
+  {
+    "bank": "NBU",
+    "currency": "USD",
+    "buyRate": 36.5686,
+    "sellRate": 36.5686
+  },
+  {
+    "bank": "NBU",
+    "currency": "EUR",
+    "buyRate": 39.761,
+    "sellRate": 39.761
+  },
+  {
+    "bank": "OSCHAD",
+    "currency": "USD",
+    "buyRate": 36.5686,
+    "sellRate": 37.1200
+  },
+  {
+    "bank": "OSCHAD",
+    "currency": "EUR",
+    "buyRate": 39.7610,
+    "sellRate": 40.9500
+  },
+  {
+    "bank": "PUMB",
+    "currency": "USD",
+    "buyRate": 37.00,
+    "sellRate": 38.00
+  },
+  {
+    "bank": "PUMB",
+    "currency": "EUR",
+    "buyRate": 39.75,
+    "sellRate": 40.75
+  }
+]

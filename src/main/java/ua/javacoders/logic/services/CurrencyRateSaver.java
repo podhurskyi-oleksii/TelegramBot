@@ -25,7 +25,7 @@ public class CurrencyRateSaver {
         }
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
-            FileWriter writer = new FileWriter("currencyRates.json");
+            FileWriter writer = new FileWriter("C:\\workspace\\TelegramBot\\src\\main\\resources\\currencyRates.json");
             writer.write(gson.toJson(rateList));
             writer.close();
         } catch (IOException e) {

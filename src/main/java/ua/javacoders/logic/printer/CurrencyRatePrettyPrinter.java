@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 public class CurrencyRatePrettyPrinter {
 
-    public void printPrettyRates(List<Currency> currencies, List<Bank> banks) {
+    public String printPrettyRates(List<Currency> currencies, List<Bank> banks) {
         List<CurrencyRateDto> requiredRates = getRequiredRates(currencies, banks);
         StringBuilder prettyRates = new StringBuilder();
         for (CurrencyRateDto requiredRate : requiredRates) {
@@ -25,7 +25,7 @@ public class CurrencyRatePrettyPrinter {
                     .append("Ціна продажу: ").append(requiredRate.getSellRate()).append("\n")
                     .append("\n");
         }
-        System.out.println(prettyRates);
+        return prettyRates.toString();
     }
 
     private List<CurrencyRateDto> getRequiredRates(List<Currency> currencies, List<Bank> banks) {

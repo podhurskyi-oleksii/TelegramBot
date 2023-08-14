@@ -24,5 +24,5 @@ The <b>currency-bot.properties</b> file stores bot settings (name and token).
 * Java 17 LTS
 
 
-<h3>An example of how a Telegram bot works</h3>
+# An example of how a Telegram bot works
 ![An example of how a Telegram bot works](https://github.com/podhurskyi-oleksii/TelegramBot/blob/master/src/main/resources/Ready-made%20bot.gif)

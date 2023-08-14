@@ -1,7 +1,5 @@
 # Telegram bot 
 
-<h3><a href="https://t.me/Currency_example_bot">Example of a working bot</a></h3><br>
-
 This bot will send you notification with currency exchange rates of the selected currencies from the selected bank at a certain time of the day.
 
 # Configuration
